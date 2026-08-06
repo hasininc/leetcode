@@ -6,7 +6,7 @@ public:
 
         vector<int> ans;
 
-        for(int x : nums2){
+        for(auto &x : nums2){
             if(p.count(x)){
                 ans.push_back(x);
                 p.erase(x);
