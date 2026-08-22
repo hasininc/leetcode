@@ -10,7 +10,7 @@ public:
             freq[x]++;
             if(freq[x]>2){
                 return false;
-                break;
+                
                 
             }
             
