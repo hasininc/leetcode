@@ -8,6 +8,7 @@ public:
             freq[x]++;
             if(freq[x]>1){
                 return true;
+                break;
             }
 
         }
