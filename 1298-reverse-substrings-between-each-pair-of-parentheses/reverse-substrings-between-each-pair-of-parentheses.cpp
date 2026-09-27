@@ -2,7 +2,7 @@ class Solution {
 public:
     string reverseParentheses(string s) {
         stack<string> st;
-        string t;
+        string t = "";
         for(char c : s){
 
         if(c == '('){
