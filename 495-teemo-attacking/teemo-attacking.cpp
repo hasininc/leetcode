@@ -8,12 +8,8 @@ public:
 
         for(int i=1; i<n; i++){
             
+            ans += min((timeSeries[i] - timeSeries[i-1]), duration);
             
-            if(timeSeries[i] - timeSeries[i-1] < duration){
-                ans = ans + (timeSeries[i] - timeSeries[i-1]);
-            }else{
-                ans = ans + duration;
-            }
             
 
 
